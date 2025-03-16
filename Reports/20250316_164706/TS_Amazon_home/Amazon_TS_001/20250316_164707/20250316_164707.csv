@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TS_001,Chrome 134.0.6998.89,,,16-03-2025 16:47:13,16-03-2025 16:48:16,1m - 2.857s,ERROR
+,,,,,,,
+Test Cases/TC_Amazon_001/Manual Testing,Chrome 134.0.6998.89,,,16-03-2025 16:47:13,16-03-2025 16:47:38,24.599s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,16-03-2025 16:47:14,16-03-2025 16:47:17,3.511s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 134.0.6998.89,,,16-03-2025 16:47:17,16-03-2025 16:47:21,3.540s,PASSED
+"setText(findTestObject(""Amazon_manual_OR/input_Search Amazon_field-keywords""), ""Da vinci code "")",Chrome 134.0.6998.89,,,16-03-2025 16:47:21,16-03-2025 16:47:33,12.409s,PASSED
+"click(findTestObject(""Amazon_manual_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 134.0.6998.89,,,16-03-2025 16:47:33,16-03-2025 16:47:38,4.569s,PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,16-03-2025 16:47:38,16-03-2025 16:47:38,0.266s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_001/record and playback,Chrome 134.0.6998.89,,,16-03-2025 16:47:38,16-03-2025 16:48:01,23.077s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,16-03-2025 16:47:38,16-03-2025 16:47:39,1.291s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 134.0.6998.89,,,16-03-2025 16:47:39,16-03-2025 16:47:41,1.516s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com/input_Try different image_field-keywords""), """")",Chrome 134.0.6998.89,,,16-03-2025 16:47:41,16-03-2025 16:47:42,0.811s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 134.0.6998.89,,,16-03-2025 16:47:42,16-03-2025 16:47:42,0.671s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 134.0.6998.89,,,16-03-2025 16:47:42,16-03-2025 16:47:55,12.850s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_manual_OR/input_Search Amazon_field-keywords""), ""Da vinci code"")",Chrome 134.0.6998.89,,,16-03-2025 16:47:55,16-03-2025 16:47:56,1.226s,PASSED
+"click(findTestObject(""Object Repository/Amazon_manual_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 134.0.6998.89,,,16-03-2025 16:47:56,16-03-2025 16:48:01,4.293s,PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,16-03-2025 16:48:01,16-03-2025 16:48:01,0.307s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_001/script testing,Chrome 134.0.6998.89,,,16-03-2025 16:48:11,16-03-2025 16:48:16,4.483s,ERROR
+"openBrowser("""")",Chrome 134.0.6998.89,,,16-03-2025 16:48:11,16-03-2025 16:48:13,1.348s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 134.0.6998.89,,,16-03-2025 16:48:13,16-03-2025 16:48:16,3.084s,PASSED
+"selectOptionByLabel(findTestObjec(""""), ""Books"", false)",Chrome 134.0.6998.89,,,16-03-2025 16:48:16,16-03-2025 16:48:16,0.009s,ERROR
