@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,13 +18,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+// Open the browser
+WebUI.openBrowser("")
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+//Navigate to url
+WebUI.navigateToUrl("https://www.amazon.com/")
 
-WebUI.setText(findTestObject('Amazon_manual_OR/input_Search Amazon_field-keywords'), 'Da vinci code ')
+//search the category
+WebUI.selectOptionByLabel(findTestObjec(''),"Books", false)
 
-WebUI.click(findTestObject('Amazon_manual_OR/input_Search Amazon_nav-search-submit-button'))
+//give text
+WebUI.setText(findTestObject('Object Repository/Amazon_manual_OR/input_Search Amazon_field-keywords'), "Da vinci code")
 
+//click the magnifier
+WebUI.click(findTestObject('Object Repository/Amazon_manual_OR/input_Search Amazon_field-keywords'))
+
+//close browser
 WebUI.closeBrowser()
-

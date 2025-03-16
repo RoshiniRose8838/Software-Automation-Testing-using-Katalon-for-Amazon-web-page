@@ -28,10 +28,10 @@ WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com/button_C
 WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
     'search-alias=stripbooks-intl-ship', true)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+WebUI.setText(findTestObject('Object Repository/Amazon_manual_OR/input_Search Amazon_field-keywords'), 
     'Da vinci code')
 
-WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_manual_OR/input_Search Amazon_nav-search-submit-button'))
 
 WebUI.closeBrowser()
 
