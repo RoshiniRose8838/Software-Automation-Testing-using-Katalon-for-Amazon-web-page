@@ -17,7 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('www.amazon.com')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com/input_Try different image_field-keywords'), '')
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com/button_Continue shopping'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    'search-alias=stripbooks-intl-ship', true)
+
+WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+    'Da vinci code')
+
+WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
 
 WebUI.closeBrowser()
 

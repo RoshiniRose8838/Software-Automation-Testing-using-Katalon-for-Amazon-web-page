@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>soft test</name>
+   <name>record and playback</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>757f13b1-1d88-41b0-9d22-388ae2d76719</testCaseGuid>
+   <testCaseGuid>21c0b98e-5129-485d-a558-db55a87602bd</testCaseGuid>
 </TestCaseEntity>
